@@ -1,9 +1,8 @@
-import React,{useState} from "react";
 import Divider from "./Divider";
 import FruitsCard from './FruitsCard';
 
 const SeasonSpecials = () => {
-  const [fruits, setFruits] = useState([
+  const fruits = [
     {
       id: 7,
       image: "7",
@@ -22,7 +21,7 @@ const SeasonSpecials = () => {
       name: "lemon",
       price: 150,
     },
-  ]);
+  ];
   return (
     <section className="w-5/6 mx-auto my-10">
       <Divider title={'Season Specials'}/>
